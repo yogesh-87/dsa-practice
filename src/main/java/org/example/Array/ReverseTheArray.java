@@ -22,7 +22,7 @@ public class ReverseTheArray {
             System.out.print(i + " ");
         }
 
-
+        System.out.println();
         reverse(nums);
         System.out.println("After Reverse ----------");
 
