@@ -16,7 +16,7 @@ public class rotateArray {
         int k = 3;
         int n = arr.length;
 
-        System.out.println("Original Array: ");
+        System.out.print("Original Array: ");
         for(int i: arr){
             System.out.print(i + " ");
         }
@@ -24,7 +24,7 @@ public class rotateArray {
         reverse(arr,0,k-1);
         reverse(arr,k,n-1);
         System.out.println();
-        System.out.println("After Rotating By K steps: ");
+        System.out.print("After Rotating By K steps: ");
         for(int i: arr){
             System.out.print(i + " ");
         }
