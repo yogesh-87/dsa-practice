@@ -28,10 +28,10 @@ public class MergeTwoSortedArray {
         }
     }
     static void main() {
-        int[] nums1 = {1,3,4,6,0,0,0};
-        int[] nums2 = {2,5,8};
-        int n = 4; // nums1 elements
-        int m = 3; // nums2 element
+        int[] nums1 = {1,3,4,0,0,0};
+        int[] nums2 = {2,5,7,8};
+        int n = 3; // nums1 elements
+        int m = 4; // nums2 element
 
         mergeArray(nums1,n,m,nums2);
         System.out.println();
